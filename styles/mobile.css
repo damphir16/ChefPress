@@ -1,4 +1,69 @@
+body{
+    min-width: 320px;
+}
 .header-nav{
     display: flex;
+    height: 40px;
+    justify-content: space-between;
+    background-color: var(--orange);
+}
+.header-nav picture{
+    margin: auto 20px;
+    cursor: pointer;
+}
+.header-nav-imagotype{
+    display: flex;
+    align-items: center;
+}
+.header-nav-imagotype-img{
+    height: 30px;
+    width: 30px;
+}
+.header-nav-imagotype-text{
+    font-size: var(--fs-l);
+}
+.header-nav-menu-img{
+    height: 30px;
+    width: 30px;
+}
+.header-background{
+    display: inline;
+    background-image:url("//ChefPress/assets/img/dummyBanner.jfif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+}
+.header-background-actionButton{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     background-color: var(--orangeTransparent);
+    height: inherit;
+    width: 37.5%;
+    padding: 0 10px;
+}
+.header-background-actionButton button{
+    background-color: var(--orange);
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: var(--fs-m);
+}
+.header-background-actionButton p{
+    text-align: center;
+    font-size: var(--fs-s);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header-background-img{
+    width: 100%;
+    height: inherit;
+}
+.hide{
+    display: none;
 }

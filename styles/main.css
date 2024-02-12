@@ -2,10 +2,26 @@
     /*COLORS*/
     --browm: #8F3F08;
     --orange: #FFBB3A;
-    --orangeTransparent: rgba(255, 187, 58, .8);
+    --orangeTransparent: rgba(255, 187, 58, .5);
     --almond: #E9DDCF;
     --indigo: #152862;
+    /*FONTS*/
+    --fs-xs: 1.2rem;
+    --fs-s: 1.6rem;
+    --fs-m: 2rem;
+    --fs-l: 2.5rem;
+    --fs-xl: 3.1rem;
+    --fs-xxl: 3.9rem;
+
 }
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 html{
     font-size: 62.5%;
 }
