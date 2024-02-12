@@ -1,0 +1,16 @@
+:root{
+    /*COLORS*/
+    --browm: #8F3F08;
+    --orange: #FFBB3A;
+    --orangeTransparent: rgba(255, 187, 58, .8);
+    --almond: #E9DDCF;
+    --indigo: #152862;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+  width: 80%;
+  margin: 0 auto;  
+}
