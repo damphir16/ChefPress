@@ -1,6 +1,6 @@
 :root{
     /*COLORS*/
-    --browm: #8F3F08;
+    --brown: #8F3F08;
     --orange: #FFBB3A;
     --orangeTransparent: rgba(255, 187, 58, .5);
     --almond: #E9DDCF;
@@ -12,7 +12,6 @@
     --fs-l: 2.5rem;
     --fs-xl: 3.1rem;
     --fs-xxl: 3.9rem;
-
 }
 
 *{
@@ -29,4 +28,12 @@ html{
 body{
   width: 80%;
   margin: 0 auto;  
+}
+
+/* GENERAL */
+.hide{
+  display: none;
+}
+.highlight{
+  color: var(--orange);
 }

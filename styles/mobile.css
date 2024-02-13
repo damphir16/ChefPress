@@ -1,6 +1,7 @@
 body{
     min-width: 320px;
 }
+/* HEADER */
 .header-nav{
     display: flex;
     height: 40px;
@@ -8,7 +9,7 @@ body{
     background-color: var(--orange);
 }
 .header-nav picture{
-    margin: auto 20px;
+    margin: auto 10px;
     cursor: pointer;
 }
 .header-nav-imagotype{
@@ -20,6 +21,7 @@ body{
     width: 30px;
 }
 .header-nav-imagotype-text{
+    font-weight: 500;
     font-size: var(--fs-l);
 }
 .header-nav-menu-img{
@@ -27,13 +29,8 @@ body{
     width: 30px;
 }
 .header-background{
-    display: inline;
-    background-image:url("//ChefPress/assets/img/dummyBanner.jfif");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     width: 100%;
-    height: 280px;
+    height: 250px;
 }
 .header-background-actionButton{
     display: flex;
@@ -53,7 +50,7 @@ body{
     border-radius: 50px;
     padding: 5px;
     margin-bottom: 15px;
-    font-size: var(--fs-m);
+    font-size: var(--fs-s);
 }
 .header-background-actionButton p{
     text-align: center;
@@ -64,6 +61,70 @@ body{
     width: 100%;
     height: inherit;
 }
-.hide{
-    display: none;
+/* MAIN */
+.main-infoSection{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.main-infoSection-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-infoSection-right img{
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+}
+.main-infoSection-left{
+    width: 62.5%;
+    height: inherit;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.main-infoSection-left ul{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.main-infoSection-left ul li{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 6px 0;
+}
+.main-infoSection-left-description{
+    margin-bottom: 15px;
+    color: var(--orange);
+}
+.main-infoSection-left-descriptionIcon{
+    width: 12px;
+    height: 12px;
+}
+.main-infoSection-left-title{
+    margin: 0px 0px 10px 0 ;
+}
+.main-infoSection-left-adventage{
+    margin-left: 6px;
+}
+.button-type1{
+    background-color: var(--orange);
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: var(--fs-xs);
+    width: 80px;
+}
+.button-type2{
+    background-color: var(--orangeTransparent);
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: var(--fs-xs);
+    width: 80px;
 }
