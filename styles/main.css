@@ -5,6 +5,8 @@
     --orangeTransparent: rgba(255, 187, 58, .5);
     --almond: #E9DDCF;
     --indigo: #152862;
+    --gray: rgb(245, 245, 245);
+    --black: rgb(30, 30, 30);
     /*FONTS*/
     --fs-xs: 1.2rem;
     --fs-s: 1.6rem;
@@ -19,6 +21,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: var(--black);
 }
 
 html{
@@ -26,7 +29,7 @@ html{
 }
 
 body{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;  
 }
 
