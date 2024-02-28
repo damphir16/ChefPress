@@ -7,6 +7,7 @@
     --indigo: #152862;
     --gray: rgb(245, 245, 245);
     --black: rgb(30, 30, 30);
+    --red:rgb(150,0,0);
     /*FONTS*/
     --fs-xs: 1.2rem;
     --fs-s: 1.6rem;
@@ -38,5 +39,6 @@ body{
   display: none;
 }
 .highlight{
-  color: var(--orange);
+  color: var(--orange) !important;
+  border-bottom-color: var(--orange) !important;
 }

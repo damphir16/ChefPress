@@ -181,3 +181,98 @@ body{
     background-color: var(--almond);
 }
 /*FOOD SECTION*/
+.main-foodSection{
+    background-color: var(--brown);
+}
+.main-foodSection-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.main-foodSection-header-message{
+    margin-top: 20px;
+    color: var(--orange);
+    font-weight: 100;
+}
+.main-foodSection-header-title{
+    font-size: var(--fs-m);
+    color: var(--gray);
+    font-weight: 500;
+}
+.main-foodSection-header-list{
+    margin-top: 5px;
+    list-style: none;
+    display: flex;
+}
+.main-foodSection-header-item{
+    cursor: pointer;
+    padding: 5px 5px;
+    color: var(--gray);
+    border-bottom: 1px solid var(--almond);
+    /* border-bottom: 1px solid var(--almond); */
+}
+.main-foodSection-slider{
+    position: relative;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: auto;
+    scroll-snap-type: x proximity;
+    align-items: center;
+}
+.main-foodSection-slider-card{
+    position: relative;
+    scroll-snap-align: center;
+    min-width: 180px;
+    max-width: 250px;
+    width: 70%;
+    height: 200px;
+    background-color: var(--almond);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto 20px;
+}
+.main-foodSection-slider-card-title{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: var(--gray);
+    background-color: var(--brown);
+    font-weight: 500;
+    font-size: var(--fs-s);
+}
+.main-foodSection-slider-card-description{
+    font-size: var(--fs-xs);
+    margin-bottom: 15px;
+}
+.main-foodSection-slider-card-img-1{
+    background-image: url(/assets/img/food/WhatsApp\ Image\ 2024-02-19\ at\ 3.26.16\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-foodSection-slider-card-img-2{
+    background-image: url(/assets/img/food/WhatsApp\ Image\ 2024-02-19\ at\ 3.26.18\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-foodSection-slider-card-img-3{
+    background-image: url(/assets/img/food/WhatsApp\ Image\ 2024-02-19\ at\ 3.26.29\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-foodSection-slider-card-img-4{
+    background-image: url(/assets/img/food/WhatsApp\ Image\ 2024-02-19\ at\ 3.26.38\ AM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
