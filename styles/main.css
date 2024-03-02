@@ -42,3 +42,6 @@ body{
   color: var(--orange) !important;
   border-bottom-color: var(--orange) !important;
 }
+.highlight2{
+  color: var(--brown);
+}
