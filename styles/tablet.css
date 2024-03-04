@@ -1,4 +1,25 @@
+body{
+    width: 80%;
+}
 /* HEADER */
 .header-nav-menu-img{
     display: none;
+}
+.header-nav-buttons{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.header-nav-buttons-item{
+    background-color: var(--orangeTrasparent);
+    margin: auto 5px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: var(--fs-s);
+    cursor: pointer;
+}
+.header-nav-buttons-item a{
+    text-decoration: wavy;
 }

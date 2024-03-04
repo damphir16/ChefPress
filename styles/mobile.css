@@ -28,6 +28,9 @@ body{
     height: 30px;
     width: 30px;
 }
+.header-nav-buttons{
+    display: none;
+}
 .header-background{
     width: 100%;
     height: 250px;
@@ -77,10 +80,11 @@ body{
     justify-content: center;
 }
 .main-infoSection-right img{
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 10px;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
 }
 .main-infoSection-left{
     width: 62.5%;
@@ -103,6 +107,7 @@ body{
 .main-infoSection-left-description{
     margin-bottom: 30px;
     color: var(--orange);
+    font-size: var(--fs-xs);
 }
 .main-infoSection-left-descriptionIcon{
     width: 12px;
@@ -114,6 +119,7 @@ body{
 .main-infoSection-left-adventage{
     margin-left: 6px;
     margin-bottom: 2px;
+    font-size: var(--fs-xs);
 }
 .button-type1{
     background-color: var(--orange);
