@@ -8,18 +8,20 @@ body{
 .header-nav-buttons{
     display: flex;
     width: 50%;
-    justify-content: center;
+    justify-content: right;
+    margin-right: 10px;
 }
 .header-nav-buttons-item{
     background-color: var(--orangeTrasparent);
-    margin: auto 5px;
-    width: 100px;
+    height: 100%;
+    width: 120px;
     border: none;
-    border-radius: 50px;
-    padding: 5px;
-    font-size: var(--fs-s);
     cursor: pointer;
 }
+.header-nav-buttons-item:hover{
+    background-color: var(--orange2);
+}
 .header-nav-buttons-item a{
-    text-decoration: wavy;
+    text-decoration: none;
+    font-size: var(--fs-m);
 }
