@@ -8,9 +8,19 @@
       content="Serivicio de cocina a domicilio ChefPress"
     />
     <meta name="robots" content="index, follow" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/mobile.css" />
-    <!-- <link rel="stylesheet" href="styles/dummy.css">  -->
+    <link rel="stylesheet" href="styles/main.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="styles/mobile.css"
+      media="(min-width: 320px)"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="style/tablet.css"
+      media="(min-width: 641px)"
+      type="text/css"
+    />
     <title>ChefPress</title>
   </head>
   <body>
@@ -24,14 +34,14 @@
           />
           <h1 class="header-nav-imagotype-text">ChefPress</h1>
         </picture>
-        <picture>
+        <picture class="header-nav-menu-img">
           <img
             src="assets/img/dummyMenu.png"
             alt="Menú"
             class="header-nav-menu-img"
           />
         </picture>
-        <div class="hide">
+        <div class="header-nav-buttons">
           <button>¡Comprar!</button>
           <button>Conócenos</button>
           <button>Contáctanos</button>
