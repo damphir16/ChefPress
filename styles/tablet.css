@@ -14,9 +14,9 @@ body{
 .header-nav-buttons-item{
     background-color: var(--orangeTrasparent);
     height: 100%;
-    width: 120px;
     border: none;
     cursor: pointer;
+    margin-left: 10px;
 }
 .header-nav-buttons-item:hover{
     background-color: var(--orange2);
@@ -24,4 +24,7 @@ body{
 .header-nav-buttons-item a{
     text-decoration: none;
     font-size: var(--fs-m);
+}
+.header-background-actionButton{
+    width: 27%;
 }

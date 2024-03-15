@@ -7,7 +7,9 @@
     --almond: #E9DDCF;
     --indigo: #152862;
     --gray: rgb(245, 245, 245);
+    --gray2: rgb(210, 210, 210);
     --black: rgb(30, 30, 30);
+    --blackTransparent: rgba(30, 30, 30, 0.3);
     --red:rgb(150,0,0);
     /*FONTS*/
     --fs-xs: 1.2rem;
@@ -37,7 +39,7 @@ body{
 
 /* GENERAL */
 .hide{
-  display: none;
+  display: none !important;
 }
 .highlight{
   color: var(--orange) !important;
